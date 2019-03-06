@@ -16,7 +16,9 @@
         <label for="email" id="email-label">Email:</label> <input type="email" id="email" placeholder="Enter your email" required>
         <label for="number" id="number-label">Age:</label> <input type="number"  id="number" placeholder="Age" min="1" max="200" required>
 
-        <label for="dropdown">What types of games do you mainly play?</label> <select name="dropdown" id="dropdown">
+        <br>
+
+        <label >What types of games do you mainly play?</label> <select name="dropdown" id="dropdown">
             <option value="BoardGames">Board Games</option>
             <option value="BoardGames">Card Games</option>
             <option value="MobileGames">Mobile Games</option>
@@ -24,10 +26,26 @@
             <option value="PCGames">PC Games</option>
         </select>
 
-        <label for="friendOption">When playing games how often do you play with friends?</label>
+        <br>
+
+        <label>When playing games how often do you play with friends?</label>
         <label><input type="radio" name="friendOption" id="alwaysRB">Always</label>
         <label><input type="radio" name="friendOption" id="sometimesRB">Sometimes</label>
         <label><input type="radio" name="friendOption" id="neverRB">Never</label>
+
+        <br>
+
+        <label >What genre of games do you play? (Check all that apply) </label>
+        <label ><input type="checkbox" name="gameGenres" value="Action">Action</label>
+        <label ><input type="checkbox" name="gameGenres" value="Shooter">Shooter</label>
+        <label ><input type="checkbox" name="gameGenres" value="Strategy">Strategy</label>
+        <label ><input type="checkbox" name="gameGenres" value="Puzzle">Puzzle</label>
+        <label ><input type="checkbox" name="gameGenres" value="TextBased">Text Based</label>
+        <label ><input type="checkbox" name="gameGenres" value="CardTable">Card Table</label>
+
+
+
+
         
     </form>
 </body>
