@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Homework 3 Problem 5</title>
+    <title>Nabhan Maswood HW3 P5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
@@ -13,9 +13,9 @@
     <p id ="description">Hello! Here is a quick survey about Games!</p>
     <div class= "formWrapper">
     <form id = "survey-form" action="">
-        <label for="name" id="name-label">Name:</label>  <input type="text" id= "name" placeholder="Enter your name" required>
-        <label for="email" id="email-label">Email:</label> <input type="email" id="email" placeholder="Enter your email" required>
-        <label for="number" id="number-label">Age:</label> <input type="number"  id="number" placeholder="Age" min="1" max="200" required>
+        <label for="name" id="name-label">*Name:</label>  <input type="text" id= "name" placeholder="Enter your name" required>
+        <label for="email" id="email-label">*Email:</label> <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="number" id="number-label">*Age:</label> <input type="number"  id="number" placeholder="Age" min="1" max="200" required>
 
         <br>
 
@@ -26,6 +26,8 @@
             <option value="ConsoleGames">Console Games</option>
             <option value="PCGames">PC Games</option>
         </select>
+        <br>
+        <label >How many hours per month do you play games?</label> <input type="number"  id="hours" placeholder="Hours" min="0" max="300" >
 
         <br>
 
@@ -43,6 +45,10 @@
         <label ><input type="checkbox" name="gameGenres" value="Puzzle">Puzzle</label>
         <label ><input type="checkbox" name="gameGenres" value="TextBased">Text Based</label>
         <label ><input type="checkbox" name="gameGenres" value="CardTable">Card Table</label>
+
+        <br>
+
+        <label>What is your favorite game? <input id = "favGameInput" placeholder="Enter a Game"></label>
 
         <br>
 
